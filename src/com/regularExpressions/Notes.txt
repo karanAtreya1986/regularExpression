@@ -1,0 +1,28 @@
+Difference between + and multiply-
++ says – once or more times.
+Multiply says zero or more times.
+
+Regular expression has three classes-
+1.	Character class
+2.	Meta-character class
+3.	Quantifier class
+
+Pattern and matcher apis – will be present in all regex code.
+Pattern is class.
+Matcher Is class.
+Pattern is basically the regex which we need.
+Matcher – will pass the input string to match with the pattern.
+
+Only two apis needed – pattern for defining pattern. 
+Matcher – for matching against the pattern.
+
+Pattern p = Pattern.compile("\\bA\\b");
+this means check if capital "A" is present in string once only.
+returns true or false accordingly.
+\\b will include all spaces and backspaces.
+so this pattern says search for "A" or <space>A<space> or A<space> or <space>A.
+To find all the occurrences use find() method.
+
+
+
+
